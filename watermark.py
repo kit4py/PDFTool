@@ -7,7 +7,7 @@ OUTPUT_PDF = 'merged_and_watermarked'
 
 
 # pdf_combiner(inputs)
-template = PyPDF2.PdfReader(open(f'{MERGED_PDF}.pdf', 'rb'))
+template = PyPDF2.PdfReader(open(f'./results/{MERGED_PDF}.pdf', 'rb'))
 watermark = PyPDF2.PdfReader(open(f'{WATERMARK_FILE}.pdf', 'rb'))
 output = PyPDF2.PdfWriter()
 
