@@ -4,10 +4,10 @@ Merge PDF files into one PDF file and add watermark to each page
 
 Installation:
 1. git clone
-2. cd JPGtoPNG-Converter/
+2. cd PDFTool/
 3. python3 -m venv venv # create virtual environment
 4. . venv/bin/activate (.fish # if you're using fish)
-5. python3 install -r requirements.txt
+5. pip3 install -r requirements.txt
 
 
 Example:
